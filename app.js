@@ -9,7 +9,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.json({ msg: "API working successfully" });
+  res.json({ msg: "API working successfully", is_ready: true });
 });
 
 app.post("/getWeather", async (req, res) => {
