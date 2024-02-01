@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(235, 214, 187);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+p{
+    margin: 0.5rem;
+    padding: 1rem;
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 7px;
+}

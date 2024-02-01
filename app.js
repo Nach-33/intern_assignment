@@ -8,7 +8,9 @@ app.use(cors());
 
 app.use(express.json());
 
-app.get("/", (req, res) => {
+app.use(express.static("public"));
+
+app.get("/check", (req, res) => {
   res.json({ msg: "API working successfully", is_ready: true });
 });
 
